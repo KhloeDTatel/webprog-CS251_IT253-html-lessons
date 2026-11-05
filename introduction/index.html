@@ -1,24 +1,178 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<html lang="en">
 
-      <center> 
-<h1>Personal Profile Web page </h1>
-       <p>
-<br> About Me </br>
-<br> ( Do not include birthdate / age / contact information)
-<br> Education / Achievements
-<br> Course 
-<br> IT Experience
-<br> Hobbies & Interests
-<br> Goals In Life / Dream
-<br> <p>Picture Gallery </br>
-<img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl with a jacket" width="500" height="600"> 
-        </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khloe Delacruz Tatel (Kyo) | Personal Profile</title>
+  <style>
+    body {
+      background-color: #1a1126;
+      color: #f3e5ff;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 30px 15px;
+    }
+    #main-profile {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #2b1d3d;
+      border: 2px solid #a580ca;
+      border-radius: 14px;
+      padding: 28px;
+    }
+    .section-card {
+      background-color: #36244d;
+      border-left: 5px solid #ff7eb3;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+    }
+    .highlight-tag {
+      background-color: #ff7eb3;
+      color: #1a1126;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    h1, h2 {
+      color: #ffe066;
+      margin-top: 0;
+    }
+    a {
+      color: #7bf1a8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #a580ca;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #4c265e;
+      color: #ffe066;
+    }
+    .gallery-row {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 12px;
+    }
+    .gallery-img {
+      border: 3px solid #d8b4f8;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-profile">
+
+    <div style="text-align: center; margin-bottom: 24px;">
+      <h1>Personal Profile Webpage</h1>
+      <p>
+        Hi! I am <strong>Khloe Delacruz Tatel</strong>, and I go by the nickname 
+        <span class="highlight-tag">Kyo</span>.
       </p>
-    </center>
-  </body>
+      <p>
+        Explore my projects and know about me on: 
+        <a href="https://github.com/KTatel" target="_blank">My GitHub Profile</a> |
+        <a href="https://www.linkedin.com/in/khloe-tatel/" target="_blank">My LinkedIn Profile</a>
+      </p>
+      <hr style="border: 1px solid #a580ca;">
+    </div>
+
+    <div class="section-card" id="about-me">
+      <h2>About Me</h2>
+      <p>
+        I am an Information Technology student and <em>UI/UX designer</em>. I enjoy making apps and websites during my free time. In truth, I coded this simple website during our class discussion!
+      </p>
+    </div>
+
+    <div class="section-card" id="course">
+      <h2>Course</h2>
+      <p>
+        <strong>Bachelor of Science in Information Technology (BSIT)</strong> at 
+        <mark style="background-color: #ffe066; color: #1a1126; padding: 2px 6px;">Asia Pacific College</mark>
+      </p>
+    </div>
+
+    <div class="section-card" id="education">
+      <h2>Education & Achievements</h2>
+      <ul>
+        <li><strong>College:</strong> Pursuing BS in Information Technology at Asia Pacific College.</li>
+        <li><strong>Senior High School:</strong> Graduated from STI College Las Piñas (Specialized in Mobile Application and Web Programming).</li>
+        <li><strong>Technical Credentials & Events:</strong>
+          <ul>
+            <li>
+              Earned the <em>Introduction to Linux</em> digital badge from the Linux Foundation and other technical credentials on IBM SkillsBuild. Check it out here: 
+              <a href="https://www.credly.com/users/khloe-tatel" target="_blank">My Credly Badges</a>
+            </li>
+            <li>Participated in the <em>Build with AI: Code to Workspace</em> workshop and Arduino Day Philippines 2026.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-card" id="it-experience">
+      <h2>A crumb of my IT Experience & Projects</h2>
+      <table>
+        <tr>
+          <th>Project / Area</th>
+          <th>Technologies Used</th>
+          <th>Description</th>
+        </tr>
+        </tr>
+        <tr>
+          <td><strong>Cherry Cipher &amp; KhloeLore</strong></td>
+          <td>HTML5, CSS3, JavaScript, SVG</td>
+          <td>Gamified cryptography puzzle platform and RPG-themed interactive web portfolio.</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section-card" id="hobbies">
+      <h2>Hobbies & Interests</h2>
+      <ol>
+        <li>Playing games like <strong>Valorant</strong>, <strong>MLBB</strong>, and <strong>Roblox</strong>.</li>
+        <li>Reading novels, manga, and manhwa during my leisure time.</li>
+        <li>Cooking at home and organizing my living space.</li>
+        <li>PS: I have a fondness for organizing things, it may be from my schedule to my to-dos, I always have an organized list!</li>
+      </ol>
+    </div>
+
+    <div class="section-card" id="gallery-section">
+      <h2>Picture Gallery</h2>
+      <p>Snapshots representing my interests in coding, design, and success :p</p>
+      <div class="gallery-row">
+        <img class="gallery-img" src="https://i.imgur.com/hemZZL0.png" alt="My 2nd Portfolio made" width="320" height="260">
+        <img class="gallery-img" src="https://i.imgur.com/bM84lHP.png" alt="KhloeLore snippet" width="250" height="260">
+        <img class="gallery-img" src="https://i.imgur.com/6vT8Rp5.png" alt="Certificates (1st yr)" width="250" height="260">
+      </div>
+    </div>
+
+    <div class="section-card" id="fun-fact">
+      <h2>Fun Fact!</h2>
+      <p>I never became complacent again after getting a whopping -10 in our Mobprog class during SHS because my final app's database wasn't fully functioning!</p>
+      <div class="gallery-row">
+        <img class="gallery-img" src="https://i.imgur.com/2Om6mBw.png" alt="My SHS disaster" width="620" height="160">
+        <img class="gallery-img" src="https://media.tenor.com/Bf1c841V39gAAAAC/cat-scream-cat-screaming.gif" alt="Screaming Cat Meme" width="220" height="160">
+      </div>
+    </div>
+
+  </div>
+
+</body>
 </html>
