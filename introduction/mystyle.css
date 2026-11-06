@@ -358,3 +358,38 @@ img:hover {
     justify-content: center;
   }
 }
+
+img:active {
+  width: auto;
+  max-width: 90vw;
+  height: auto;
+  max-height: 85vh;
+  object-fit: contain;
+  transform: scale(1) rotate(0deg);
+  z-index: 9999;
+  position: relative;
+  cursor: zoom-out;
+  box-shadow: 0 25px 60px rgba(74, 20, 140, 0.45);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 24px 12px;
+  }
+  #main-profile > div {
+    padding: 24px 20px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  #about-me tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #picture-gallery p,
+  #hobbies-section p {
+    justify-content: center;
+  }
+}
