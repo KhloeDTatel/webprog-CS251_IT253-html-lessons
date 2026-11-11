@@ -369,7 +369,6 @@ img:active {
   transform: translate(-50%, -50%) scale(1) rotate(0deg);
   z-index: 99999;
   cursor: zoom-out;
-  box-shadow: 0 0 0 100vmax rgba(59, 7, 100, 0.65), 0 25px 60px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
