@@ -3,24 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/flexbox.css?version=0.1">
   <title>Khloe Delacruz Tatel (Kyo) | Personal Profile</title>
+  <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-<div>
-  <div class="container">
-<div>1</div>
-<div>2</div>
-<div>3</div>  
-<div>4</div>
-<div>5</div>
-<div>6</div>  
-<div>7</div>
-<div>8</div>
-<div>9</div>  
-</div>
-</div>
 
+  <div id="main-profile">
+
+    <div id="header-section">
       <h1>Hello! (˶ᵔ ᵕ ᵔ˶)</h1>
       <h2>I am Khloe Delacruz Tatel</h2>
       <p>
@@ -37,7 +27,9 @@
         <a href="#picture-gallery">Jump to Full Picture Gallery</a>
       </p>
       <hr>
+    </div>
 
+    <div id="about-me">
       <h2>About Me</h2>
       <table>
         <tr>
@@ -52,10 +44,13 @@
         </tr>
       </table>
       <hr>
+    </div>
+
+    <div id="education-section">
       <h2>Course, Education & Scholarships</h2>
       <ul>
         <li>
-          <strong>Current Degree:</strong> Bachelor of Science in Information Technology (BSIT) at <strong>Asia Pacific College (APC)</strong>.
+          <strong>Currently:</strong>a Bachelor of Science in Information Technology (BSIT) student at <strong>Asia Pacific College (APC)</strong>.
         </li>
         <li>
           <strong>Scholarship:</strong> 100% SM Foundation College Scholar.
@@ -73,10 +68,25 @@
         </li>
       </ul>
       <hr>
-  
+    </div>
 
-  
-      <h2>IT Experience & Software Projects</h2>
+   <div id="it-experience">
+      <h2>IT Experience & Software Projects that I have</h2>
+
+      <h3>Technical Stack, Programming Languages & IDEs</h3>
+      <ul>
+        <li>
+          <strong>Programming & Markup Languages:</strong> Java, Kotlin, C#, Python, JavaScript, SQL, HTML5, CSS3
+        </li>
+        <li>
+          <strong>Frameworks, Mobile & Cloud Technologies:</strong> Android SDK, Jetpack Compose, Flutter, .NET Framework, Firebase Firestore, Google ML Kit (On-Device OCR), CameraX, Custom SVG, Red Hat Enterprise Linux (RHEL)
+        </li>
+        <li>
+          <strong>IDEs, Database & Development Tools:</strong> Visual Studio Code (VS Code), Android Studio, Visual Studio, NetBeans, MySQL Workbench, Git & GitHub, Figma, Canva, Arduino IDE
+        </li>
+      </ul>
+
+      <h3>Software & Web Projects Built</h3>
       <p>Here is a crumb of the applications/web that I have designed and built:</p>
       <table>
         <thead>
@@ -87,11 +97,6 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>VibeTrivia (ongoing)</strong></td>
-            <td>Flutter, Dart, VS Code</td>
-            <td>Mobile trivia application built for cross-platform mobile programming.</td>
-          </tr>
           <tr>
             <td><strong>Cherry Cipher</strong></td>
             <td>HTML5, CSS3, JavaScript, Custom SVG</td>
@@ -105,11 +110,12 @@
           <tr>
             <td><strong>For fun Portfolio (Gamified)</strong></td>
             <td>HTML5, CSS3, JavaScript, GitHub Pages</td>
-            <td>Gamified interactive personal portfolio with client-side CRUD management capabilities.</td>
+            <td>Gamified interactive personal portfolio</td>
           </tr>
         </tbody>
       </table>
       <hr>
+    </div>
 
     <div id="hobbies-section">
       <h2>Hobbies & Daily Routine</h2>
@@ -123,8 +129,8 @@
         <li>
           It became my hobby to join competitions and upskill from time to time. Here's my <strong>International Computer Science Competition</strong> side quest :p
           <p>
-            <img src="images/icsp.jpg" alt="ICSP Event 1" width="250" height="270">
-            <img src="images/icsp2.jpg" alt="ICSP Event 2" width="250" height="270">
+            <img src="images/icsp.jpg" alt="ICSP Event 1" width="250" height="290">
+            <img src="images/icsp2.jpg" alt="ICSP Event 2" width="250" height="290">
           </p>
           <ul>
             <li>
@@ -134,7 +140,7 @@
         </li>
       </ol>
       <hr>
-
+    </div>
 
     <div id="goals-section">
       <h2>Goals In Life / Dream</h2>
@@ -142,22 +148,25 @@
         My goal is to graduate with my friends and my dream is simply to live a comfortable and successful life.
       </p>
       <hr>
-  
+    </div>
+
+    <div id="fun-fact">
       <h2>Fun Fact</h2>
       <p>
-        I never became complacent again after getting a whopping <strong>-10</strong> in our Mobile Programming class during Senior High School because my final app's database wasn't fully functioning! That experience is why I always double-check all my works today.
+        I never became complacent again after getting a whopping <span class="highlight-negative">-10</span> in our Mobile Programming class during Senior High School because my final app's database wasn't fully functioning! That experience is why I always double-check all my works today.
       </p>
-        <img src="images/pababa.jpg" alt="baba" width="350" height="190">
+      <img src="images/pababa.jpg" alt="baba" width="240" height="190">
       <hr>
-   
+    </div>
 
+    <div id="picture-gallery">
       <h2>Random(?) Picture Gallery</h2>
 
       <h3>1. My Coding Projects, Web Builds & Portfolios</h3>
-      <p>
+      <p><h4>In truth, whole doing this activity, I was filled with nostalgia because this activity reminds me of my first time knowing HTML and CSS and when I did my first ever website when I was G11/ 15yrs old;-;</h4>
         <a href="images/Tatel_portfolio.html" target="_blank">Click here to open my earlier HTML portfolio file!</a>
       </p>
-      <p>
+     <p>
         <img src="images/portfolioforfun.png" alt="Portfolio For Fun Build" width="250" height="190">
         <img src="images/proj.png" alt="Software Project Screenshot" width="250" height="190">
         <img src="images/web1.jpeg" alt="Web Project 1" width="250" height="190">
@@ -170,7 +179,8 @@
       <p>
         <img src="images/scho.jpg" alt="LGU Scholarship" width="250" height="190">
         <img src="images/certs.jpg" alt="1st Year Grind Certificates" width="250" height="190">
-        <img src="images/sti.jpg" alt="STI College Las Piñas Memories" width="250" height="190">
+        <img src="images/HS certs.png" alt="High School Certificates" width="250" height="190">
+        <img src="images/sti.jpg" alt="impromptu speech" width="250" height="190">
         <img src="images/quizbee.jpg" alt="Quiz Bee Competition" width="250" height="190">
         <img src="images/speechh.jpg" alt="Speech Event 1" width="250" height="190">
         <img src="images/speech2.jpg" alt="Speech Event 2" width="250" height="190">
@@ -178,18 +188,51 @@
 
       <h3>3. Friends, Campus Life & Creative Moments</h3>
       <p>
+        <img src="images/w anika.jpeg" alt="With Anika" width="250" height="190">
         <img src="images/frens.jpeg" alt="With Friends" width="250" height="190">
         <img src="images/painting.jpg" alt="Painting Artwork" width="250" height="190">
+        <img src="images/thms.jpeg" alt="w lablab" width="250" height="190">
+        <img src="images/running session.jpg" alt="Running Session" width="250" height="190">
+        <img src="images/giftss.jpg" alt="Gifts" width="250" height="190">
+        <img src="images/monopoly.jpg" alt="Monopoly Game" width="250" height="190">
+        <img src="images/review session.jpg" alt="Review Session" width="250" height="190">
+        <img src="images/meaftercryingtosql.jpeg" alt="<33" width="250" height="190">
+        <img src="images/photobooth.jpg"  alt="w frens" width="250" height="190">
       </p>
+
       <h3>4. Pets & Animals</h3>
       <p>
         <img src="images/betty.jpeg" alt="Betty Photo 1" width="250" height="190">
         <img src="images/betty2.jpeg" alt="Betty Photo 2" width="250" height="190">
         <img src="images/doggo.jpeg" alt="Doggo Snapshot" width="250" height="190">
+        <img src="images/doggo.jpg" alt="Doggo Photo 2" width="250" height="190">
+        <img src="images/doggo2.jpg" alt="Doggo Photo 3" width="250" height="190">
         <img src="images/birdie.jpeg" alt="Birdie Photo 1" width="250" height="190">
         <img src="images/birdie (2).jpeg" alt="Birdie Photo 2" width="250" height="190">
-        <img src="images/idk.jpeg" alt="Fun Snapshot" width="250" height="190">
-
+        <img src="images/idk.jpeg" alt="birdieee" width="250" height="190">
       </p>
+
+      <h3>5. My Manhwa Top Picks</h3>
+      <p>
+        <img src="images/flower w a sword.png" alt="Flower With A Sword 1" width="250" height="190">
+        <img src="images/flower w a swordd.png" alt="Flower With A Sword 2" width="250" height="190">
+        <img src="images/golden hair elementalist.png" alt="Golden Haired Elementalist" width="250" height="190">
+        <img src="images/fortune telling princess.png" alt="Fortune Telling Princess" width="250" height="190">
+        <img src="images/transmigrators piv2.png" alt="Transmigrator's Privilege" width="250" height="190">
+      </p>
+
+      <h3>6. Games (Valorant, Roblox & Genshin)</h3>
+      <p>
+        <img src="images/last player standing lmao.png" alt="Valorant Last Player Standing" width="250" height="190">
+        <img src="images/life as pocket sage p2.png" alt="Valorant Life as Pocket Sage P2" width="250" height="190">
+        <img src="images/life as pocket sage p4.png" alt="Valorant Life as Pocket Sage P4" width="250" height="190">
+        <img src="images/my driver aceee.png" alt="Valorant My Driver Ace" width="250" height="190">
+        <img src="images/valorant prank...jpg" alt="Valorant Prank" width="250" height="190">
+        <img src="images/Betryal of matt.png" alt="Roblox Betrayal of Matt" width="250" height="190">
+        <img src="images/genshin.png" alt="Genshin Impact 1" width="250" height="190">
+        <img src="images/genshin2.png" alt="Genshin Impact 2" width="250" height="190">
+      </p>
+    </div>
+  </div>
 </body>
 </html>
