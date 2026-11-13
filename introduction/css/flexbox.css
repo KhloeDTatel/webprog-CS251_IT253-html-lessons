@@ -1,17 +1,14 @@
-
 .container_flex {
   display: flex;
   flex-wrap: wrap;
-  background-color: DodgerBlue;
   gap: 15px;
 }
- 
+
 .container_flex div {
-  background-color: #f2c9ff;
-  flex: 1; 
-  min-width: 250px; 
+  flex: 1;
+  min-width: 250px;
   margin: 0;
-  padding: 15px; 
-  text-align: left; 
+  padding: 15px;
+  text-align: left;
   font-size: 15px;
 }
