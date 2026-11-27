@@ -1,6 +1,9 @@
+// Create an Object:
 const car = {
-  type: "Fiat",
-  model: "500",
-  color: "white"
+  type:"Fiat",
+  model:"500",
+  color:"white"
 };
-document.getElementById("demo").innerHTML = "The car type is " + car.type;
+
+// Display Data from the Object:
+document.getElementById("demo2").innerHTML = "The car type,  model and color is " + car.type +" "  +car.model+" "  +car.color ;
