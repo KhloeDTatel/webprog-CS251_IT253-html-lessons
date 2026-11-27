@@ -1,2 +1,6 @@
-// Display Data from the Object:
+const car = {
+  type: "Fiat",
+  model: "500",
+  color: "white"
+};
 document.getElementById("demo").innerHTML = "The car type is " + car.type;
