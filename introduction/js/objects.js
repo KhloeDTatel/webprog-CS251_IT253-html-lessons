@@ -1,6 +1,6 @@
 // Create an Object:
 const car = {
-  type:"Fiat",
+  type:"Flat",
   model:"500",
   color:"white"
 };
